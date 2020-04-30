@@ -1,0 +1,75 @@
+$font-stack:       'Open Sans', serif;
+$primary-color:    #f5f5f5;
+$secondary-color:  #e5e5e5;
+
+.body {
+  font-family: $font-stack;
+}
+
+.navbar-nav > li{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.page-title {
+    background-color: $primary-color;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.read-more {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+
+.blog-footer, .blog-footer-about {
+  padding: 2.5rem 0;
+  text-align: center;
+  border-top: .05rem solid $secondary-color;
+  background-color: $primary-color;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.home, .biography, .literature, .science, .social {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.blog-main {
+    margin-bottom: 20px;
+}
+
+.blog-paragraph {
+  text-align: justify;
+}
+
+.downloads {
+  margin-bottom: 20px;
+}
+
+.blog-footer {
+    padding: 1.5rem 0;
+}
+
+.blog-footer-about {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+$breakpoint-tablet: 991px;
+@media (min-width: $breakpoint-tablet) {
+  .home, .biography, .literature, .science, .social {
+    max-width: 50% !important;
+  }
+}

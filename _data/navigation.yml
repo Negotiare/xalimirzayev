@@ -1,0 +1,12 @@
+- name: Ana səhifə
+  link: /
+- name: Tərcümeyi-hal
+  link: /biography.html
+- name: Fəaliyyət
+  link: /activity.html
+- name: Əsərlər
+  link: /works.html
+- name: Qalereya
+  link: /gallery.html
+- name: Sayt haqqında
+  link: /about.html
